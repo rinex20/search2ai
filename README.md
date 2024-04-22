@@ -113,6 +113,13 @@ http://localhost:3014/v1/chat/completions
 | `GOOGLE_KEY`     | No      | 如选Google搜索必填，API key，申请地址 https://search2ai.online/googlekey| `xxx`|
 | `SERPAPI_KEY`     | No      | 如选serpapi必填，免费100次/月，注册地址 https://search2ai.online/serpapi| `xxx`|
 | `SERPER_KEY`     | No      | 如选serper必填，6个月免费额度2500次，注册地址 https://search2ai.online/serper| `xxx`|
+| `OPENAI_API`     | No      | 默认为openai，支持openai, azure| `openai`|
+| `RESOURCE_NAME`     | No      | 如选azure必填| `xxxx`|
+| `DEPLOY_NAME`     | No      | 如选azure必填| `gpt-35-turbo`|
+| `API_VERSION`     | No      | 如选azure必填| `2024-03-01-preview`|
+
+
+
 
 
 # 风险声明
